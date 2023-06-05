@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { GoogleApiWrapper } from 'google-maps-react';
-import apiKey from '../config';
+import apiKey from '../../config';
 
 const Hotels = (props) => {
   const [hotelResults, setHotelResults] = useState([]);
