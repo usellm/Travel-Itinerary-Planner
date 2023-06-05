@@ -1,0 +1,149 @@
+/* Apply general styles to the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #FFF2CC; */
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+  }
+  
+  #hotelResults {
+    margin-top: 20px;
+  }
+  
+  /* Apply styles to individual hotel/place elements */
+  .place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .place img {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .place h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .place p {
+    margin: 0;
+  }
+  
+  .place a {
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .place hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  .hotel-class {
+    display: inline-block;
+    width: calc(100% / 3); /* Each hotel takes up 1/3 of the available width */
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .hotel-class:nth-child(3n+1) {
+    clear: left;
+  }
+  
+  .hotel-class img {
+    width: 40%;
+    max-height: 200px;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hotel-class h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .hotel-class .rating {
+    margin-bottom: 5px;
+  }
+  
+  .hotel-class .booking {
+    margin-top: 10px;
+  }
+  
+  .hotel-class .booking a {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hotel-class .booking a:hover {
+    background-color: #45a049;
+  }
+  
+  .load-more {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .load-more a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4287f5;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .load-more a:hover {
+    background-color: #336ad0;
+  }
+
+  #find-hotels-buttons{
+    width: 80%;
+  }

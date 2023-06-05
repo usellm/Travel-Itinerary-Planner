@@ -1,0 +1,30 @@
+{
+  "name": "planner",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.4.1",
+    "@opentelemetry/instrumentation": "^0.39.1",
+    "@opentelemetry/resources": "^1.13.0",
+    "@opentelemetry/sdk-trace-node": "^1.13.0",
+    "@opentelemetry/semantic-conventions": "^1.13.0",
+    "google-maps-react": "^2.0.6",
+    "next": "13.4.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.7",
+    "react-router-dom": "^6.11.2",
+    "remark-gfm": "^3.0.1",
+    "usellm": "^0.9.0"
+  },
+  "devDependencies": {
+    "eslint": "8.42.0",
+    "eslint-config-next": "13.4.4"
+  }
+}

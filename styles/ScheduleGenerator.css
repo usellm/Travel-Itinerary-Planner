@@ -1,0 +1,148 @@
+.container {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loading {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .response {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  .markdown-container {
+    color: black;
+  }
+  
+  .markdown-container table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-left: 20px; /* Adjust the margin value as needed */
+  }
+  
+  .markdown-container th,
+  .markdown-container td {
+    border: 2px solid black;
+    padding: 0.5rem;
+  }
+
+.markdown-container h1,
+.markdown-container h2,
+.markdown-container h3,
+.markdown-container h4,
+.markdown-container h5,
+.markdown-container h6 {
+  color: #000; /* Set the desired color for the headings */
+}
+
+.markdown-container,
+.markdown-container p,
+.markdown-container span,
+.markdown-container a {
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.markdown-container ul,
+.markdown-container ol {
+  font-size: 19px; /* Adjust the font size as needed */
+}
+
+#startCity{
+  width: 40% !important;
+  min-width: 300px;
+}
+
+#endCity{
+  width: 40% !important;
+  min-width: 300px;
+}
+
+#startDate{
+  width: 40%;
+  min-width: 300px;
+}
+
+#endDate{
+  width: 40%;
+  min-width: 300px;
+  display: block;
+}
+
+#myButton{
+  width: 20%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+body{
+  background-color: #F5F5F5;
+  color: black;
+}
+  
+.link-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* .link-button{
+  width: 200px;
+} */
+
+.padding-60 a{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#find-hotels-button{
+  width: 20%;
+}
