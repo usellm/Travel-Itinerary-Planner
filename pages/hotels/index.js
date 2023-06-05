@@ -6,7 +6,6 @@ const Hotels = (props) => {
   const [hotelResults, setHotelResults] = useState([]);
   const [placeResults, setPlaceResults] = useState([]);
   const [placeInput, setPlaceInput] = useState('');
-
   useEffect(() => {
     const searchParams = new URLSearchParams(window.location.search);
     const endCity = searchParams.get('endCity');
@@ -244,5 +243,5 @@ const Hotels = (props) => {
 };
 
 export default GoogleApiWrapper({
-  apiKey: apiKey
+  apiKey
 })(Hotels);
