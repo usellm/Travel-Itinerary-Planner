@@ -1,0 +1,12 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/api/hello": "pages/api/hello.js",
+  "/ScheduleGeneratorPage": "pages/ScheduleGeneratorPage.js",
+  "/": "pages/index.js",
+  "/explore": "pages/explore.js",
+  "/hotels": "pages/hotels.js",
+  "/customSchedule": "pages/customSchedule.js",
+  "/scheduleGenerator/[place]": "pages/scheduleGenerator/[place].js",
+  "/_document": "pages/_document.js"
+}
