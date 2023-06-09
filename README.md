@@ -1,4 +1,3 @@
-
 # TravelFinder
 
 TravelFinder is a web application built with Next.js and the usellm library. This project aims to provide users with a convenient way to discover travel locations based on their specified criteria. By entering relevant text, users can quickly find exciting destinations to explore.
@@ -15,6 +14,4 @@ TravelFinder is a web application built with Next.js and the usellm library. Thi
 
 The website has been deployed on Vercel. You can check it out using this [link](https://travel-planner-mcrn1jlq9-harshit0199-gmailcom.vercel.app/).
 
-
-
-
+## Test
